@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Parkinsans", serif;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #4da1a9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: #2e5077;
+  padding: 60px;
+  border-radius: 20px;
+  color: #f4edd3;
+  position: relative;
+  box-shadow: 1px 3px 25px -9px rgba(0, 0, 0, 0.75);
+}
+
+.card h1 {
+  font-size: 24px;
+}
+
+svg {
+  fill: #f4edd3;
+  height: 30px;
+}
+
+#dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 200px;
+  background-color: #4da1a9;
+  padding: 5px;
+  position: absolute;
+  bottom: -20px;
+  right: 160px;
+  border: 2px solid #79d7be;
+}
